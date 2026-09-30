@@ -1,0 +1,24 @@
+{
+  "name": "cycloneshield-ai",
+  "version": "1.0.0",
+  "description": "AI-Powered Cyclone Impact & Infrastructure Vulnerability Platform",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && py -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test:backend": "cd backend && py -m pytest -v",
+    "install:backend": "cd backend && py -m pip install -r requirements.txt",
+    "install:frontend": "cd frontend && npm install"
+  },
+  "keywords": [
+    "cyclone",
+    "disaster-management",
+    "earth-engine",
+    "gemini",
+    "geospatial",
+    "andhra-pradesh"
+  ],
+  "author": "Google Code for Communities Track 5 Team",
+  "license": "Apache-2.0"
+}

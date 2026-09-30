@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.sqlite3
+*.db
+
+# Node.js
+node_modules/
+dist/
+build/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Secrets
+.env
+.env.local
+*.pem
+service_account.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Earth Engine
+ee_token
